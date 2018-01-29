@@ -1,0 +1,84 @@
+body {
+  margin: 8px 160px 8px 160px;
+  background: $backgroundColourBody;
+}
+
+div {
+  &#content {
+    background: $backgroundColourContent;
+    padding: 0 15px 0 15px;
+  }
+  h1 {
+    text-align: center;
+    &:first-child {
+      margin-top: 0px;
+      padding-top: 15px;
+    }
+  }
+  h1, h2 {
+    color: $colorOfText;
+  }
+  @include colorOfTextPage;
+  .img-left {
+    margin: 0 15px 15px 0;
+    border: 2px solid $colorOfText;
+    padding: 2px;
+    float: left;
+  }
+  .brief {
+    @include briefs;
+  }
+  @include colorOfLink;
+  .img-right {
+    margin: 0 0px 15px 15px;
+    border: 2px solid $colorOfText;
+    padding: 2px;
+    float: right;
+  }
+  table {
+    @include colorOfTable;
+    caption {
+      text-align: right;
+    }
+
+    tr {
+      th {
+        background: $backgroundColourHeadTable;
+        text-align: left;
+        text-transform: uppercase;
+        font-weight: normal;
+        padding: 10px;
+        border-bottom: 1px solid $backgroundColourHeadTable;
+      }
+      td {
+        padding: 10px;
+        border-bottom: 1px solid $backgroundColourHeadTable;
+      }
+    }
+  }
+  .name, .sename {
+    float: left;
+    width: 50%;
+  }
+  #contact_name {
+    width: 96%;
+  }
+
+  input, textarea {
+    display: block;
+    margin: 5px 0 10px 0;
+    width: 100%;
+  }
+  label {
+    color: $colorofEnd;
+  }
+  button {
+    background: $backgroundColourContent;
+    border: 1px solid $colorButton;
+    color: $colorButton;
+    padding: 10px 50px 10px 50px;
+    font-size: 150%;
+    margin: 10px 0 30px 0;
+  }
+
+}

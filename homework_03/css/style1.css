@@ -1,0 +1,61 @@
+body {
+  margin: 8px 160px 8px 160px;
+  background: #dcbb9a; }
+
+div#content {
+  background: #ffffff;
+  padding: 0 15px 0 15px; }
+div h1 {
+  text-align: center; }
+  div h1:first-child {
+    margin-top: 0px;
+    padding-top: 15px; }
+div h1, div h2 {
+  color: #893c00; }
+div .img-left {
+  margin: 0 15px 15px 0;
+  border: 2px solid #893c00;
+  padding: 2px;
+  float: left; }
+div .brief {
+  background: #fadcba;
+  margin: 0 10px 10px 0;
+  height: 50px;
+  width: 380px;
+  padding: 20px;
+  float: left; }
+div .img-right {
+  margin: 0 0px 15px 15px;
+  border: 2px solid #893c00;
+  padding: 2px;
+  float: right; }
+div table caption {
+  text-align: right; }
+div table tr th {
+  background: #e0e0e0;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0; }
+div table tr td {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0; }
+div .name, div .sename {
+  float: left;
+  width: 50%; }
+div #contact_name {
+  width: 96%; }
+div input, div textarea {
+  display: block;
+  margin: 5px 0 10px 0;
+  width: 100%; }
+div label {
+  color: #808080; }
+div button {
+  background: #ffffff;
+  border: 1px solid #3d70a1;
+  color: #3d70a1;
+  padding: 10px 50px 10px 50px;
+  font-size: 150%;
+  margin: 10px 0 30px 0; }

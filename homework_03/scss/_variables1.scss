@@ -1,0 +1,24 @@
+$backgroundColourBody: #dcbb9a;
+$backgroundColourContent: #ffffff;
+$colorOfText: #893c00;
+$colorBrief: #fadcba;
+$backgroundColourHeadTable: #e0e0e0;
+$colorofEnd: #808080;
+$colorButton: #3d70a1;
+@mixin briefs {
+  background: $colorBrief;
+  margin: 0 10px 10px 0;
+  height: 50px;
+  width: 380px;
+  padding: 20px;
+  float: left;
+}
+
+@mixin colorOfTextPage {
+}
+
+@mixin colorOfLink {
+}
+
+@mixin colorOfTable {
+}

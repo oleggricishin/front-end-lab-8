@@ -1,0 +1,67 @@
+body {
+  margin: 8px 160px 8px 160px;
+  background: rgba(198, 238, 252, 0.53); }
+
+div#content {
+  background: #3b3b3b;
+  padding: 0 15px 0 15px; }
+div h1 {
+  text-align: center; }
+  div h1:first-child {
+    margin-top: 0px;
+    padding-top: 15px; }
+div h1, div h2 {
+  color: #fccd10; }
+div p, div td {
+  color: #ffffff; }
+div .img-left {
+  margin: 0 15px 15px 0;
+  border: 2px solid #fccd10;
+  padding: 2px;
+  float: left; }
+div .brief {
+  background: #fff178;
+  padding: 20px;
+  margin-bottom: 40px; }
+div a {
+  color: #f5c70f; }
+div .img-right {
+  margin: 0 0px 15px 15px;
+  border: 2px solid #fccd10;
+  padding: 2px;
+  float: right; }
+div table {
+  background: #677d01;
+  border-collapse: collapse; }
+  div table tr th:nth-child(1), div table tr th:nth-child(2) {
+    border-right: 1px solid #ffffff; }
+  div table caption {
+    text-align: right; }
+  div table tr th {
+    background: #94a34e;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 10px;
+    border-bottom: 1px solid #94a34e; }
+  div table tr td {
+    padding: 10px;
+    border-bottom: 1px solid #94a34e; }
+div .name, div .sename {
+  float: left;
+  width: 50%; }
+div #contact_name {
+  width: 96%; }
+div input, div textarea {
+  display: block;
+  margin: 5px 0 10px 0;
+  width: 100%; }
+div label {
+  color: #f5c70f; }
+div button {
+  background: #3b3b3b;
+  border: 1px solid #f5c70f;
+  color: #f5c70f;
+  padding: 10px 50px 10px 50px;
+  font-size: 150%;
+  margin: 10px 0 30px 0; }

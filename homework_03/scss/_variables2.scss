@@ -1,0 +1,36 @@
+$backgroundColourBody: rgba(198, 238, 252, 0.53);
+$backgroundColourContent: #3b3b3b;
+$colorOfText: #fccd10;
+$colorBrief: #fff178;
+$backgroundColourHeadTable: #94a34e;
+$backgroundColourTable: #677d01;
+$colorofEnd: #f5c70f;
+$colorButton: #f5c70f;
+$colorWhite: #ffffff;
+@mixin briefs {
+  background: $colorBrief;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+@mixin colorOfTextPage {
+  p, td {
+    color: $colorWhite;
+  }
+}
+
+@mixin colorOfLink {
+  a {
+    color: $colorofEnd;
+  }
+}
+
+@mixin colorOfTable {
+  background: $backgroundColourTable;
+  border-collapse: collapse;
+  tr {
+    th:nth-child(1), th:nth-child(2) {
+      border-right: 1px solid $colorWhite;
+    }
+  }
+}
