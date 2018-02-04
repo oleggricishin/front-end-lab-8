@@ -1,0 +1,165 @@
+body {
+  margin: 0; }
+
+a, h1, p, h2, label, h3 {
+  font-family: Arial; }
+
+.menu-head, .about, .featured-articles, .end, footer {
+  padding: 10px; }
+
+.menu-head {
+  background-image: url(../img/apples.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  .menu-head a, .menu-head h1, .menu-head p {
+    color: white; }
+  .menu-head header {
+    min-width: 800px;
+    max-width: 1500px;
+    padding: 20px 0 0 0; }
+    .menu-head header a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 15px; }
+      .menu-head header a:hover {
+        border-bottom: 3px solid #B7C8D9; }
+      .menu-head header a:active {
+        background: rgba(183, 200, 217, 0.3); }
+    .menu-head header .logo {
+      float: left; }
+    .menu-head header .menu {
+      float: right; }
+      .menu-head header .menu a {
+        margin-left: 40px; }
+    .menu-head header h1 {
+      margin-top: 300px;
+      margin-bottom: 0;
+      text-align: center;
+      font-size: 400%;
+      font-weight: normal;
+      letter-spacing: 10px; }
+      .menu-head header h1 k {
+        font-family: none;
+        font-size: 200%; }
+      .menu-head header h1 sup {
+        font-size: 54%; }
+    .menu-head header p {
+      text-align: center;
+      color: white; }
+    .menu-head header a.read {
+      margin-top: 210px;
+      margin-bottom: 200px;
+      padding: 25px 100px 25px 100px;
+      border: 3px solid white;
+      background: rgba(0, 0, 0, 0.5); }
+
+.about {
+  min-width: 800px;
+  max-width: 1500px;
+  background: none;
+  margin: 100px 0 250px 0; }
+  .about div:nth-child(1) {
+    width: 45%;
+    float: left; }
+    .about div:nth-child(1) p {
+      font-size: x-large;
+      text-align: left; }
+  .about div:nth-child(2) {
+    width: 45%;
+    float: right;
+    margin-bottom: 100px; }
+    .about div:nth-child(2) p {
+      text-align: justify; }
+
+.featured-articles {
+  background: #F3F3F3; }
+  .featured-articles .one {
+    min-width: 900px;
+    max-width: 1500px;
+    margin-bottom: 100px;
+    padding-top: 100px; }
+  .featured-articles h2 {
+    font-weight: normal; }
+  .featured-articles img {
+    padding: 20px 20px 0 0;
+    align: center; }
+  .featured-articles .subscribe {
+    max-width: 1180px;
+    padding: 50px 0 50px 0;
+    margin-bottom: 150px;
+    margin-right: 20px;
+    background: white; }
+    .featured-articles .subscribe label {
+      font-size: x-large;
+      padding-right: 50px; }
+    .featured-articles .subscribe ::placeholder {
+      color: black; }
+    .featured-articles .subscribe input {
+      border: 1px solid black;
+      padding: 20px 50px 20px 20px;
+      width: 27%;
+      background: #F3F3F3; }
+    .featured-articles .subscribe button {
+      position: relative;
+      right: 5px;
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      max-width: 350px;
+      padding: 21px 50px 21px 50px;
+      border: none; }
+
+.end {
+  text-align: left;
+  max-width: 1200px;
+  margin-top: 150px; }
+  .end p {
+    color: #A4A4A4;
+    text-align: justify; }
+  .end div:nth-child(1) {
+    width: 25%;
+    float: left; }
+    .end div:nth-child(1) p {
+      width: 75%; }
+  .end div:nth-child(2) {
+    width: 25%;
+    float: left; }
+  .end div:nth-child(3) {
+    width: 25%;
+    float: left; }
+    .end div:nth-child(3) p {
+      width: 75%; }
+  .end div:nth-child(4) {
+    width: 25%;
+    float: right; }
+    .end div:nth-child(4) input {
+      border: 1px solid black;
+      padding: 10px 10px 10px 10px;
+      background: #F3F3F3;
+      width: 50%; }
+    .end div:nth-child(4) button {
+      position: relative;
+      right: 5px;
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 11px 10px 11px 10px;
+      border: none; }
+
+footer {
+  max-width: 1200px;
+  margin-top: 500px;
+  border-top: 1px solid #f0f0f0;
+  padding: 20px 0 20px 0; }
+  footer p {
+    color: #A4A4A4;
+    text-align: left; }
+  footer .menu1 {
+    float: right;
+    padding-top: 17px; }
+    footer .menu1 a {
+      margin-left: 40px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
