@@ -1,0 +1,191 @@
+body {
+  margin: 0; }
+
+header {
+  max-width: 1300px;
+  margin: auto;
+  padding: 20px 0 40px 0; }
+  header .logo {
+    float: left;
+    padding-right: 50px;
+    margin-left: 5px; }
+  header .menu {
+    padding-top: 13px; }
+    header .menu a {
+      padding-right: 20px;
+      text-decoration: none;
+      color: #464547;
+      font-weight: bold;
+      font-family: Arial, Helvetica;
+      font-size: 18px; }
+      header .menu a:hover {
+        color: #39c2d7; }
+
+.main {
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  .main div {
+    margin: auto;
+    max-width: 1300px; }
+    .main div p {
+      margin: 0;
+      width: 35%;
+      padding: 60px 0 230px 5px;
+      color: #fff;
+      font-size: 50px;
+      font-family: Arial, Helvetica;
+      text-align: left; }
+
+.about {
+  margin: auto;
+  max-width: 1300px; }
+  .about a {
+    text-decoration: none; }
+    .about a:hover div {
+      background: #39c2d7; }
+  .about div {
+    display: inline-table;
+    background: rgba(70, 69, 71, 0.25);
+    margin: 25px 25px 0 0;
+    padding: 15px;
+    width: 27.5%;
+    height: 350px; }
+    .about div img {
+      width: 100%; }
+    .about div h2 {
+      margin: 0;
+      padding: 10px 0 10px 0;
+      font-family: Arial, Helvetica;
+      color: #464547; }
+    .about div p {
+      margin: 0;
+      font: 20px Arial, Helvetica, sans-serif;
+      color: #464547; }
+  .about .three, .about .six {
+    margin-right: 0; }
+  .about .four, .about .five, .about .six {
+    margin-bottom: 25px; }
+  .about .one, .about .four {
+    margin-left: 5px; }
+
+footer {
+  background: rgba(57, 194, 215, 0.9); }
+  footer div {
+    margin: auto;
+    padding: 30px 0 30px 0;
+    max-width: 1300px; }
+    footer div a, footer div p {
+      display: inline;
+      font: 20px Arial, Helvetica, sans-serif;
+      color: white; }
+    footer div a {
+      margin-left: 5px;
+      margin-right: 60px; }
+      footer div a:hover {
+        text-decoration: none; }
+
+@media (max-width: 900px) {
+  header {
+    margin: auto;
+    padding: 20px 0 20px 0; }
+    header .logo {
+      float: none;
+      padding: 0;
+      text-align: center; }
+    header .menu {
+      text-align: center; }
+
+  .main div p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center; }
+
+  .about {
+    margin: 0 auto; }
+    .about div {
+      width: 40%;
+      height: 200px;
+      margin: 15px 15px 0 0; }
+      .about div img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%; }
+      .about div h2 {
+        font-size: 90%; }
+      .about div p {
+        font-size: 13px; }
+    .about .three, .about .six {
+      margin-right: 15px; }
+    .about .four {
+      margin-bottom: 0;
+      margin-left: 0px; }
+    .about .one, .about .three, .about .five {
+      margin-left: 15px; }
+
+  footer div {
+    margin: auto;
+    padding: 30px 0 0 0;
+    max-width: none;
+    text-align: center; }
+    footer div a, footer div p {
+      font-size: 14px; }
+    footer div a {
+      margin-left: 0;
+      margin-right: 30px; }
+    footer div p {
+      display: block;
+      margin-bottom: 0; } }
+@media (max-width: 575px) {
+  header {
+    margin: auto;
+    padding: 20px 0 0 0; }
+    header .menu {
+      text-align: left; }
+      header .menu a {
+        padding: 10px 0 10px 20px;
+        display: block;
+        border-top: 1px solid rgba(70, 69, 71, 0.25);
+        background: rgba(70, 69, 71, 0.1); }
+
+  .main div {
+    padding: 200px 20px 20px 20px; }
+    .main div p {
+      width: 90%;
+      text-align: left;
+      padding: 10px 30px 10px 10px;
+      margin: 0;
+      background: #39c2d7; }
+
+  .about .one, .about .two, .about .three, .about .four, .about .five, .about .six {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .about .six {
+    margin-bottom: 20px; }
+  .about div {
+    width: 85%;
+    height: auto; }
+    .about div img {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      width: 80%; }
+    .about div h2 {
+      font-size: 90%; }
+    .about div p {
+      font-size: 13px; }
+
+  footer div {
+    padding: 15px 0 0 0; }
+    footer div a {
+      margin-right: 0px;
+      display: block;
+      margin-bottom: 5px; }
+    footer div p {
+      padding-bottom: 15px; } }
+
+/*# sourceMappingURL=style.css.map */
