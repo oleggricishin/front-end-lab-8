@@ -1,0 +1,10 @@
+.childrenFolder{
+    display: none;
+    margin-left: 10px;
+}
+.emptyFolder{
+    font-style: italic;
+    display: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
