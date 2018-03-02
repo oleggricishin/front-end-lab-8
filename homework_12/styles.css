@@ -1,0 +1,106 @@
+body {
+    background: #1C1C1F;
+}
+
+h1, a, p, h2, table {
+    font-family: serif;
+    color: #A19E86;
+}
+
+.tank {
+    margin: 20px;
+    display: inline-block;
+    width: 320px;
+    height: 320px;
+    text-align: center;
+}
+
+.tank:hover {
+    background: #2C2C2C;
+    cursor: pointer;
+}
+
+.imgTank {
+    width: 300px;
+    height: 225px;
+}
+
+p {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+#conqueror_gun_carriage p {
+    width: 250px;
+}
+
+.pInner {
+    color: #D7D2B7;
+    text-transform: uppercase;
+
+}
+
+.div1 {
+    margin-left: 10px;
+    white-space: nowrap;
+    width: 300px;
+
+}
+
+#details {
+    width: 100%;
+}
+
+.h1Tank {
+    display: inline;
+}
+
+h1.h1Tank:first-of-type {
+    text-transform: uppercase;
+}
+
+a {
+    font-size: large;
+    cursor: pointer;
+    float: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #A19E86;
+}
+
+td:first-child {
+    width: 500px;
+}
+
+td:nth-child(2) {
+    width: 200px;
+}
+
+td {
+    padding: 10px;
+}
+
+.preview {
+    float: left;
+    width: 30%
+}
+
+.characteristic {
+    float: right;
+    width: 60%;
+}
+
+
