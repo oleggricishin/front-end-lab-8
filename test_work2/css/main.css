@@ -1,0 +1,560 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+h1, h2, a, span {
+    color: #383838;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 27px;
+}
+
+p, .mounth {
+    color: #A7A7A7;
+}
+
+p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: auto;
+    font-size: 18px;
+    padding-right: 12px;
+    line-height: 24px;
+    margin-bottom: 26px;
+}
+
+.main_nav {
+    padding: 30px 170px 26px 28px;
+    margin: 0 auto;
+}
+
+.main_nav img {
+    position: relative;
+    bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #383838;
+}
+
+.nav_link {
+    padding: 28px 15px 24px 15px;
+    font-size: large;
+}
+
+.main_nav a:nth-child(2) {
+    margin-right: 16px;
+}
+
+.nav_link:hover, .inner-nav a:hover {
+    border-bottom: 4px solid #4F7DB8;
+    color: #4F7DB8;
+}
+
+#hamburger {
+    float: right;
+}
+
+#menu-toggle span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    position: relative;
+    bottom: 25px;
+    left: 120px;
+    margin: 5px 0;
+    background: black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.main_head, .main_nav, .inner-nav {
+    text-align: center;
+}
+
+.main_nav, .inner-nav {
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.main_head h1 {
+    margin: 92px 92px 86px 92px;
+    font-size: 67px;
+    font-weight: 900;
+    letter-spacing: -4px;
+    font-stretch: condensed;
+    transition: margin-top 0.5s, margin-bottom 0.5s, font-size 0.5s;
+}
+
+.inner-nav ul {
+    margin: 29px;
+    padding-left: 14px;
+}
+
+.inner-nav li {
+    list-style-type: none;
+    display: inline;
+}
+
+.inner-nav a {
+    margin: 22px;
+    padding-bottom: 26px;
+    font-size: 19px;
+}
+
+.choose-date {
+    margin-left: 47px;
+}
+
+.inner-nav img {
+    height: 32px;
+    width: auto;
+    position: relative;
+    top: 9px;
+    left: 7px;
+}
+
+.all-events {
+    background: #F8F8FA;
+    margin: 0 auto;
+}
+
+.mounth {
+    margin: 0 auto;
+    text-align: center;
+    padding: 97px 90px 83px 90px;
+    font-size: 18px;
+    transition: padding-top 0.5s, padding-bottom 0.5s, font-size 0.5s;
+}
+
+.event {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 1120px;
+    height: 350px;
+    padding: 10px;
+    display: block;
+    background: white;
+    padding: 0;
+    transition: width 0.5s, height 0.5s;
+}
+
+.event img {
+    width: 383px;
+    height: 350px;
+}
+
+.event:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image {
+    float: left;
+}
+
+.about {
+    float: left;
+    padding: 50px 43px 23px 50px;
+    width: 330px;
+    border-right: 1px solid #E7E7E7;
+}
+
+#june .event:nth-child(4) p {
+    height: 125px;
+}
+
+.date {
+    padding: 87px 10px 40px 845px;
+}
+
+.date img {
+    height: 30px;
+    width: auto;
+}
+
+.about a {
+    padding: 15px 14px 12px 0;
+}
+
+.about img {
+    height: 33px;
+    width: auto;
+}
+
+.icon {
+    text-align: center;
+    width: 50px;
+    padding: 0 23px 11px 0;
+}
+
+.date span {
+    position: relative;
+    bottom: 18px;
+    font-size: 17px;
+}
+
+.date span:nth-of-type(2) {
+    left: 9px;
+}
+
+.icon:nth-of-type(2) {
+    position: relative;
+    left: 5px;
+}
+
+button {
+    background: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 30px 0 0 7px;
+    font-size: 18px;
+    padding: 13px 45px 13px 45px;
+}
+
+.other-month img {
+    height: 17px;
+    width: 17px;
+}
+
+.cities {
+    text-align: center;
+    padding: 50px;
+}
+
+.cities a {
+    padding: 0 85px 0 85px;
+    font-weight: bold;
+}
+
+footer {
+    margin: 0 auto;
+    background: black;
+    text-align: center;
+}
+
+footer div {
+    padding: 40px 0 40px 0;
+}
+
+footer a:nth-child(1) img, a:nth-child(2) img {
+    background: white;
+    height: 30px;
+    width: auto;
+
+}
+
+footer select {
+    color: white;
+    background: black;
+    border: none;
+    border-left: 1px solid white;
+
+}
+
+footer p {
+    color: white;
+    display: inline;
+}
+
+footer a {
+    position: relative;
+    padding-right: 40px;
+}
+
+footer a:last-of-type {
+    padding: 0 300px 0 300px;
+}
+
+footer a img {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1150px) {
+    .event {
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 900px;
+        height: 250px;
+        padding: 10px;
+        display: block;
+        background: white;
+        padding: 0;
+    }
+
+    .event img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about {
+        padding: 10px 10px 34px 20px;
+        width: 300px;
+    }
+
+    .about p {
+        height: 92px;
+    }
+
+    #june .event:nth-child(4) p {
+        height: 74px;
+    }
+
+    #june .event:nth-child(4) .about {
+        padding-bottom: 20px;
+    }
+
+    .date {
+        padding: 48px 10px 40px 600px;
+    }
+
+    .date img, .about img {
+        height: 30px;
+        width: auto;
+    }
+
+    .icon {
+        text-align: center;
+        width: 50px;
+    }
+
+    button {
+        background: black;
+        color: white;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin: 10px 0 0 12px;
+        padding: 10px 40px 10px 40px;
+    }
+
+    .cities a {
+        padding: 0 50px 0 50px;
+    }
+
+    footer a:last-of-type {
+        padding: 0 150px 0 150px;
+    }
+}
+
+@media (max-width: 900px) {
+    .main_nav {
+        padding: 30px 130px 26px 28px;
+    }
+
+    .nav_link {
+        padding: 28px 5px 24px 5px;
+        font-size: large;
+    }
+
+    .main_head h1 {
+        margin: 42px 92px 36px 92px;
+        font-size: 47px;
+    }
+
+    .inner-nav ul {
+        margin: 0px 5px 10px 5px;
+        padding-left: 14px;
+    }
+
+    .inner-nav a {
+        margin: 5px;
+        padding-bottom: 8px;
+    }
+
+    .choose-date {
+        margin-left: 37px;
+    }
+
+    .mounth {
+        padding: 37px 90px 23px 90px;
+        font-size: 16px;
+    }
+
+    .event {
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 550px;
+        height: 450px;
+        padding: 10px;
+        display: block;
+        background: white;
+        padding: 0;
+    }
+
+    .event img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about {
+        float: right;
+        padding: 10px 10px 35px 20px;
+        width: 269px;
+        border-right: none;
+        border-bottom: 1px solid #E7E7E7;
+    }
+
+    .about p {
+        height: 92px;
+    }
+
+    #june .event:nth-child(4) p {
+        height: 74px;
+    }
+
+    #june .event:nth-child(4) .about {
+        padding-bottom: 21px;
+    }
+
+    .date {
+        padding: 280px 10px 5px 60px;
+    }
+
+    .date img, .about img {
+        height: 30px;
+        width: auto;
+    }
+
+    .icon {
+        text-align: center;
+        width: 50px;
+    }
+
+    button {
+        float: right;
+        position: relative;
+        bottom: 95px;
+        right: 30px;
+        margin: 0;
+        padding: 10px 40px 10px 40px;
+    }
+
+    .cities a {
+        padding: 0 10px 0 10px;
+    }
+
+    footer a:last-of-type {
+        visibility: hidden;
+        padding: 0 15px 0 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .main_nav {
+        padding: 15px 10px 35px 15px;
+    }
+
+    .nav_link {
+        display: none;
+        padding: 0;
+    }
+
+    #menu-toggle span {
+        position: unset;
+    }
+
+    .main_head h1 {
+        margin: 22px 12px 16px 12px;
+        font-size: 47px;
+    }
+
+    .inner-nav ul {
+        margin: 0;
+        padding: 5px 0 5px 0;
+    }
+
+    .inner-nav li {
+        display: block;
+        text-align: left;
+        padding: 5px 5px 5px 20px;
+        border-top: 1px solid #E7E7E7;
+    }
+
+    .inner-nav a {
+        margin: 5px;
+        padding-bottom: 8px;
+    }
+
+    .inner-nav a:hover {
+        border-bottom: none;
+    }
+
+    .choose-date {
+        margin-left: 0;
+    }
+
+    .event {
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        display: block;
+        background: white;
+        padding: 0;
+    }
+
+    .image {
+        float: none;
+        text-align: center;
+    }
+
+    .event img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about {
+        padding: 10px 10px 35px 33px;
+        width: 90%;
+        border-right: none;
+        border-bottom: 1px solid #E7E7E7;
+    }
+
+    .about p {
+        height: 92px;
+    }
+
+    #june .event:nth-child(4) p {
+        height: 74px;
+    }
+
+    #june .event:nth-child(4) .about {
+        padding-bottom: 21px;
+    }
+
+    .date {
+        padding: 280px 10px 10px 30px;
+    }
+
+    .date img, .about img {
+        height: 30px;
+        width: auto;
+    }
+
+    .icon {
+        text-align: center;
+        width: 50px;
+    }
+
+    button {
+        float: none;
+        position: unset;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .cities {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .cities a {
+        display: block;
+        padding: 5px 10px 5px 10px;
+    }
+
+}
